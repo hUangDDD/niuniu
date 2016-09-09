@@ -1,0 +1,6 @@
+{
+    "type":"View",
+    "props":{"width":640,"sceneColor":"#000000","sceneBg":"E:\\layaiuniu\\laya\\assets\\ui\\主界面.png","height":960},
+    "child":[
+        ]
+}
