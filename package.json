@@ -1,0 +1,32 @@
+{
+  "name": "niuniu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hUangDDD/niuniu.git"
+  },
+  "author": "hhh.dong@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hUangDDD/niuniu/issues"
+  },
+  "homepage": "https://github.com/hUangDDD/niuniu#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "colors": "^1.1.2",
+    "easy-mongo": "^0.2.1",
+    "express": "^4.14.0",
+    "httpf": "0.0.7",
+    "jrpc-client": "0.0.6",
+    "request": "^2.74.0",
+    "yargs": "^5.0.0"
+  }
+}
