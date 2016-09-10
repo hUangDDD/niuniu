@@ -2,7 +2,11 @@
     "x":0,
     "type":"Dialog",
     "selectedBox":1,
+<<<<<<< HEAD
     "selecteID":17,
+=======
+    "selecteID":2,
+>>>>>>> b5c137b35c339901c04122fced6c11cbe816c5e0
     "props":{"width":399,"sceneColor":"#000000","height":363},
     "nodeParent":-1,
     "label":"Dialog",
