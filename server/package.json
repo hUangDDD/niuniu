@@ -1,0 +1,14 @@
+{
+  "name": "gameserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "hhh.dong@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hUangDDD/niuniu/issues"
+  },
+  "homepage": "https://github.com/hUangDDD/niuniu#readme",
+  "dependencies": {
+  }
+}
