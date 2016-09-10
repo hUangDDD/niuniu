@@ -22,7 +22,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":3,"x":0,"skin":"niuniu_psd/个人中心/035.png"},
+            "props":{"y":3,"x":0,"skin":"niuniu_psd/gerenzhongxin/035.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -31,7 +31,7 @@
             "frames":[
                 {
                     "type":1,
-                    "props":{"y":324,"x":185,"skin":"niuniu_psd/个人中心/035.png"},
+                    "props":{"y":324,"x":185,"skin":"niuniu_psd/gerenzhongxin/035.png"},
                     "frame":0,
                     "__InPool":false
                 }],
@@ -42,7 +42,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":-241,"x":-69,"skin":"niuniu_psd/个人中心/个人中心示意图.png","alpha":0.5},
+            "props":{"y":349,"x":47,"skin":"niuniu_psd/gerenzhongxin/037.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -51,27 +51,7 @@
             "frames":[
                 {
                     "type":1,
-                    "props":{"y":280,"x":317,"skin":"niuniu_psd/个人中心/个人中心示意图.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":2,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":349,"x":47,"skin":"niuniu_psd/个人中心/037.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":369,"x":58,"skin":"niuniu_psd/个人中心/037.png"},
+                    "props":{"y":369,"x":58,"skin":"niuniu_psd/gerenzhongxin/037.png"},
                     "frame":0,
                     "__InPool":false
                 }],
@@ -82,7 +62,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":192,"x":191,"skin":"niuniu_psd/个人中心/036.png"},
+            "props":{"y":192,"x":191,"skin":"niuniu_psd/gerenzhongxin/036.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -91,7 +71,7 @@
             "frames":[
                 {
                     "type":1,
-                    "props":{"y":197,"x":218,"skin":"niuniu_psd/个人中心/036.png"},
+                    "props":{"y":197,"x":218,"skin":"niuniu_psd/gerenzhongxin/036.png"},
                     "frame":0,
                     "__InPool":false
                 }],
