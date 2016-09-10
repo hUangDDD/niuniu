@@ -2,7 +2,7 @@
     "x":0,
     "type":"Dialog",
     "selectedBox":1,
-    "selecteID":10,
+    "selecteID":17,
     "props":{"width":399,"sceneColor":"#000000","height":363},
     "nodeParent":-1,
     "label":"Dialog",
@@ -38,27 +38,6 @@
             "compId":3,
             "child":[
                 ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":-271,"x":-137,"skin":"niuniu_psd/VIP/4484984849.png","alpha":0.4},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":244,"x":156,"skin":"niuniu_psd/VIP/4484984849.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":2,
-            "child":[
-                ],
-            "$HIDDEN":false
         },
         {
             "x":15,
@@ -242,7 +221,7 @@
         {
             "x":15,
             "type":"Label",
-            "props":{"y":244,"x":76,"width":577,"text":"2、VIP描述","skin":"template/文本框/label.png","height":32,"fontSize":16,"color":"#ffffff"},
+            "props":{"y":244,"x":76,"width":279,"text":"2、VIP描述","skin":"template/文本框/label.png","height":32,"fontSize":16,"color":"#ffffff"},
             "nodeParent":1,
             "label":"Label",
             "isDirectory":false,

@@ -20,7 +20,7 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'bin'), 'index.html'));
 
-new easym.DbProvider().init(argv.mongo, function(err, db) {
+new easym.DbProvider().init(argv.mongo, {exists:[{users:{index:'nickname'}},{bills:{size:100*1024, max:1000}}]}, function(err, db) {
     if (err) return console.log(err);
     require('server')(db, easym.createDbJson, wss);
 })

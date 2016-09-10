@@ -13,4 +13,7 @@ Laya.loader.load("res/atlas/ui/hall.json", Handler.create(this, function() {
     Laya.stage.addChild(new HallUI())
 }), null, Loader.ATLAS);
 
+// sample login
+var 
+
 
