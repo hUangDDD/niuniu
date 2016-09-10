@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <project version="0.9.8">
    <asynRes>img,temp,sound</asynRes>
    <unDealRes>embed</unDealRes>
    <resTypes>png,jpg</resTypes>
    <resExportPath>bin/h5/res/atlas</resExportPath>
    <asynResExportPath>bin/h5</asynResExportPath>
+=======
+<project version="0.9.9">
+   <asynRes>img,temp,sound</asynRes>
+   <unDealRes>embed</unDealRes>
+   <resTypes>png,jpg</resTypes>
+   <resExportPath>bin/res/atlas</resExportPath>
+   <asynResExportPath>bin</asynResExportPath>
+>>>>>>> a100f76bfd6cfaf72b7701ad370d3ad286803194
    <codeExportPath>src/ui</codeExportPath>
    <codeImports><![CDATA[import laya.ui.*;]]></codeImports>
    <codeImportsJS><![CDATA[var View=laya.ui.View;
@@ -13,7 +22,11 @@ var Dialog=laya.ui.Dialog;]]></codeImportsJS>
    <boxTypes>Box,List,Tab,RadioGroup,ViewStack,Panel,HBox,VBox,Tree   </boxTypes>
    <pageTypes>View,Dialog</pageTypes>
    <shareResPath/>
+<<<<<<< HEAD
    <codeType>0</codeType>
+=======
+   <codeType>2</codeType>
+>>>>>>> a100f76bfd6cfaf72b7701ad370d3ad286803194
    <resCanCompress/>
    <resPublishQuality>80</resPublishQuality>
    <langPath/>
