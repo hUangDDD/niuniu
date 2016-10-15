@@ -1,0 +1,19 @@
+info face="H:\外包\hanzi-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=80 base=26 scaleW=159 scaleH=170 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="H:\外包\hanzi-export.png"
+chars count=96
+char id=33 x=138 y=64 width=18 height=18 xoffset=0 yoffset=58 xadvance=19 page=0 chnl=0 letter="!"
+char id=34 x=138 y=45 width=19 height=18 xoffset=0 yoffset=58 xadvance=20 page=0 chnl=0 letter="""
+char id=35 x=0 y=87 width=73 height=31 xoffset=0 yoffset=52 xadvance=74 page=0 chnl=0 letter="#"
+char id=36 x=0 y=119 width=69 height=35 xoffset=0 yoffset=50 xadvance=70 page=0 chnl=0 letter="$"
+char id=37 x=0 y=45 width=137 height=41 xoffset=0 yoffset=47 xadvance=138 page=0 chnl=0 letter="%"
+char id=38 x=0 y=0 width=146 height=44 xoffset=0 yoffset=45 xadvance=147 page=0 chnl=0 letter="&"
+char id=39 x=117 y=129 width=40 height=40 xoffset=0 yoffset=47 xadvance=41 page=0 chnl=0 letter="'"
+char id=40 x=117 y=87 width=41 height=41 xoffset=0 yoffset=47 xadvance=42 page=0 chnl=0 letter="("
+char id=41 x=70 y=119 width=46 height=25 xoffset=0 yoffset=55 xadvance=47 page=0 chnl=0 letter=")"
+char id=42 x=70 y=145 width=37 height=20 xoffset=0 yoffset=57 xadvance=38 page=0 chnl=0 letter="*"
+char id=43 x=74 y=87 width=24 height=23 xoffset=0 yoffset=57 xadvance=25 page=0 chnl=0 letter="+"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

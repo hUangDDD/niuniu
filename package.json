@@ -22,14 +22,19 @@
   "dependencies": {
     "async": "^2.0.1",
     "body-parser": "^1.15.2",
+    "clone": "^2.0.0",
     "colors": "^1.1.2",
     "compression": "^1.6.2",
     "easy-mongo": "^0.2.1",
     "express": "^4.14.0",
     "httpf": "0.0.7",
+    "jquery": "^3.1.1",
     "jrpc-client": "0.0.6",
+    "merge": "^1.2.0",
     "printf": "^0.2.5",
     "request": "^2.74.0",
+    "wechat-oauth": "^1.1.1",
+    "ws": "^1.1.1",
     "yargs": "^5.0.0"
   }
 }

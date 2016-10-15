@@ -1,0 +1,8 @@
+<res>
+   <item name="niuniu_psd/gerenzhongxin/037.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=2,2,2,2" picType="0"/>
+   <item name="niuniu_psd/shangdian/centerdi.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=12,12,12,12" picType="0"/>
+   <item name="niuniu_psd/shangdian/tongyong_di_2.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=3,3,3,3" picType="0"/>
+   <item name="niuniu_psd/shangdian/tongyong_di_3.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,0,2,0" picType="0"/>
+   <item name="niuniu_psd/shangdian/r_di.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=12,12,12,12" picType="0"/>
+   <item name="niuniu_psd/game/table_di.jpg" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+</res>

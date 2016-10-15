@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<font>
+  <info face="coins" size="21" bold="0" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1" outline="0"/>
+  <common lineHeight="21" scaleW="128" scaleH="64" pages="1" packed="0" alphaChnl="1" redChnl="0" greenChnl="0" blueChnl="0"/>
+	<pages>
+		<page id="0" file="coins.png" />
+	</pages>
+	<chars count="16">
+		<char id="48" x="23" y="23" width="15" height="19" xoffset="0" yoffset="2" xadvance="16" /><!-- 0 -->
+		<char id="49" x="60" y="0" width="13" height="18" xoffset="0" yoffset="2" xadvance="14" /><!-- 1 -->
+		<char id="50" x="53" y="43" width="14" height="18" xoffset="0" yoffset="2" xadvance="15" /><!-- 2 -->
+		<char id="51" x="54" y="19" width="14" height="19" xoffset="0" yoffset="2" xadvance="15" /><!-- 3 -->
+		<char id="52" x="0" y="45" width="15" height="18" xoffset="0" yoffset="2" xadvance="16" /><!-- 4 -->
+		<char id="53" x="68" y="39" width="13" height="19" xoffset="0" yoffset="2" xadvance="14" /><!-- 5 -->
+		<char id="54" x="39" y="23" width="14" height="19" xoffset="0" yoffset="2" xadvance="15" /><!-- 6 -->
+		<char id="55" x="45" y="0" width="14" height="18" xoffset="0" yoffset="2" xadvance="15" /><!-- 7 -->
+		<char id="56" x="23" y="43" width="14" height="19" xoffset="0" yoffset="2" xadvance="15" /><!-- 8 -->
+		<char id="57" x="38" y="43" width="14" height="19" xoffset="0" yoffset="2" xadvance="15" /><!-- 9 -->
+		<char id="46" x="69" y="19" width="8" height="8" xoffset="0" yoffset="13" xadvance="9" /><!-- . -->
+		<char id="22870" x="0" y="22" width="22" height="22" xoffset="0" yoffset="1" xadvance="23" /><!-- 奖 -->
+		<char id="21169" x="23" y="0" width="21" height="22" xoffset="0" yoffset="1" xadvance="22" /><!-- 励 -->
+		<char id="19975" x="0" y="0" width="22" height="21" xoffset="0" yoffset="2" xadvance="23" /><!-- 万 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

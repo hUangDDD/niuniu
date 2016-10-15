@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<font>
+  <info face="dfg" size="25" bold="0" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1" outline="0"/>
+  <common lineHeight="25" base="26" scaleW="256" scaleH="256" pages="1" packed="0" alphaChnl="1" redChnl="0" greenChnl="0" blueChnl="0"/>
+	<pages>
+		<page id="0" file="dfg.png" />
+	</pages>
+	<chars count="31">
+		<char id="25105" x="25" y="0" width="23" height="24" xoffset="0" yoffset="4" xadvance="24" /><!-- 我 -->
+		<char id="30340" x="48" y="50" width="21" height="24" xoffset="0" yoffset="4" xadvance="22" /><!-- 的 -->
+		<char id="22870" x="0" y="97" width="23" height="24" xoffset="0" yoffset="4" xadvance="24" /><!-- 奖 -->
+		<char id="21169" x="25" y="25" width="23" height="24" xoffset="0" yoffset="4" xadvance="24" /><!-- 励 -->
+		<char id="65292" x="48" y="113" width="7" height="10" xoffset="0" yoffset="19" xadvance="8" /><!-- ， -->
+		<char id="22823" x="24" y="97" width="23" height="24" xoffset="0" yoffset="4" xadvance="24" /><!-- 大 -->
+		<char id="23567" x="25" y="72" width="22" height="24" xoffset="0" yoffset="4" xadvance="23" /><!-- 小 -->
+		<char id="19978" x="0" y="74" width="24" height="22" xoffset="0" yoffset="5" xadvance="25" /><!-- 上 -->
+		<char id="19979" x="25" y="50" width="22" height="21" xoffset="0" yoffset="6" xadvance="23" /><!-- 下 -->
+		<char id="31561" x="0" y="0" width="24" height="24" xoffset="0" yoffset="4" xadvance="25" /><!-- 等 -->
+		<char id="21069" x="0" y="25" width="24" height="24" xoffset="0" yoffset="4" xadvance="25" /><!-- 前 -->
+		<char id="21518" x="0" y="50" width="24" height="23" xoffset="0" yoffset="5" xadvance="25" /><!-- 后 -->
+		<char id="48" x="63" y="19" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 0 -->
+		<char id="49" x="90" y="19" width="8" height="18" xoffset="0" yoffset="7" xadvance="9" /><!-- 1 -->
+		<char id="50" x="77" y="76" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 2 -->
+		<char id="51" x="77" y="95" width="12" height="18" xoffset="0" yoffset="7" xadvance="13" /><!-- 3 -->
+		<char id="52" x="48" y="94" width="14" height="18" xoffset="0" yoffset="7" xadvance="15" /><!-- 4 -->
+		<char id="53" x="63" y="0" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 5 -->
+		<char id="54" x="77" y="57" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 6 -->
+		<char id="55" x="70" y="38" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 7 -->
+		<char id="56" x="49" y="0" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 8 -->
+		<char id="57" x="49" y="19" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- 9 -->
+		<char id="65" x="48" y="75" width="14" height="18" xoffset="0" yoffset="7" xadvance="15" /><!-- A -->
+		<char id="66" x="63" y="94" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- B -->
+		<char id="67" x="63" y="75" width="13" height="18" xoffset="0" yoffset="7" xadvance="14" /><!-- C -->
+		<char id="68" x="77" y="0" width="12" height="18" xoffset="0" yoffset="7" xadvance="13" /><!-- D -->
+		<char id="69" x="77" y="19" width="12" height="18" xoffset="0" yoffset="7" xadvance="13" /><!-- E -->
+		<char id="70" x="84" y="38" width="12" height="18" xoffset="0" yoffset="7" xadvance="13" /><!-- F -->
+		<char id="71" x="90" y="0" width="12" height="18" xoffset="0" yoffset="7" xadvance="13" /><!-- G -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="13">
+		<kerning first="65"  second="67"  amount="-2" />
+		<kerning first="65"  second="71"  amount="-2" />
+		<kerning first="66"  second="65"  amount="-1" />
+		<kerning first="66"  second="69"  amount="-1" />
+		<kerning first="67"  second="65"  amount="-1" />
+		<kerning first="68"  second="65"  amount="-1" />
+		<kerning first="68"  second="68"  amount="-1" />
+		<kerning first="68"  second="69"  amount="-1" />
+		<kerning first="69"  second="67"  amount="-2" />
+		<kerning first="70"  second="65"  amount="-3" />
+		<kerning first="70"  second="67"  amount="-2" />
+		<kerning first="70"  second="71"  amount="-1" />
+		<kerning first="71"  second="69"  amount="-1" />
+	</kernings>
+</font>

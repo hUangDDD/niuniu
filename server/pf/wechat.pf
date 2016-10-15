@@ -1,0 +1,17 @@
+var merge=require('merge'), qs=require('querystring');
+var OAuth = require('wechat-oauth'), client = new OAuth('wx06a885d249615565', 'a84701bbed690e30ae5d83bee71c8fd9');
+exports.preROL=function(pack, cb) {
+    if (!pack.code) return cb('no code spec');
+    client.getAccessToken(pack.code, function (err, result) {
+        if (err) return cb(err);
+        var accessToken = result.data.access_token;
+        var openid = result.data.openid;
+        client.getUser(openid, function (err, result) {
+            if (err) return cb(err);
+            result.id=result.openid;
+            result.face='CORS?'+qs.stringify({u:result.headimgurl});
+            merge(pack, result);
+            cb(null, pack);
+        });
+    });
+}

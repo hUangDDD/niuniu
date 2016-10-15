@@ -20,23 +20,39 @@
 	
 	<!--这里是layaAir的类库模块标签,核心库laya.core.js在最前-->
 	<script type="text/javascript" src="libs/laya.core.js"></script>
-    <script type="text/javascript" src="libs/laya.webgl.js"></script>
+<!--    <script type="text/javascript" src="libs/laya.webgl.js"></script>
     <script type="text/javascript" src="libs/laya.ani.js"></script>
     <script type="text/javascript" src="libs/laya.filter.js"></script>
     <script type="text/javascript" src="libs/laya.html.js"></script>
     <script type="text/javascript" src="libs/laya.particle.js"></script>
-    <script type="text/javascript" src="libs/laya.tiledmap.js"></script>
+    <script type="text/javascript" src="libs/laya.tiledmap.js"></script>-->
     <script type="text/javascript" src="libs/laya.ui.js"></script>
 	
 	 <!-- 物理引擎matter.js -->
-    <script type="text/javascript" src="libs/matter.js"></script>
-    <script type="text/javascript" src="libs/matter-RenderLaya.js"></script>
+<!--    <script type="text/javascript" src="libs/matter.js"></script>
+    <script type="text/javascript" src="libs/matter-RenderLaya.js"></script>-->
+	<script>
+		var width=640, height=1140;
+		Laya.init(width, height);
+		Laya.stage.scaleMode='showall';
+		Laya.stage.alignH='center';
+		Laya.stage.screenMode='vertical';
+		Laya.stage.bgColor='#fcfcfc';
+		Laya.stage.frameRate='mouse';
+		var splash=window.splash=new Laya.Image('splash.png');
+		splash.once('loaded', null, function() {
+			splash.pivot(splash.width/2, splash.height/2);
+			var scale=width/1.5/splash.width;
+			splash.dataSource={x:width/2, y:height/2, scaleX:scale, scaleY:scale, alpha:0.3};
+			Laya.stage.addChild(splash);
+			Laya.Tween.to(splash, {alpha:1.0}, 400);
+		});
+	</script>
 	<!--自定义的js(src文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
 	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
 	
-	<script src="../src/ui/layaUI.max.all.js"></script>
-	<!--jsfile--startTag-->
-	<script src="../src/LayaSample.js"></script>
-	<!--jsfile--endTag-->
+	<script src="src/ui/layaUI.max.all.js"></script>
+	<script src="src/entry.js"></script>
 </body>
+
 </html>

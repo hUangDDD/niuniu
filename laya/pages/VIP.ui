@@ -2,12 +2,7 @@
     "x":0,
     "type":"Dialog",
     "selectedBox":1,
-<<<<<<< HEAD
-    "selecteID":17,
-=======
-    "selecteID":2,
->>>>>>> b5c137b35c339901c04122fced6c11cbe816c5e0
-    "props":{"width":399,"sceneColor":"#000000","height":363},
+    "props":{"width":392,"sceneColor":"#000000","popupCenter":true,"height":358},
     "nodeParent":-1,
     "label":"Dialog",
     "isOpen":true,
@@ -26,7 +21,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":5,"x":0,"skin":"niuniu_psd/VIP/002.png"},
+            "props":{"y":0,"x":0,"skin":"niuniu_psd/VIP/002.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -86,7 +81,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":102,"x":77,"skin":"niuniu_psd/VIP/001.png"},
+            "props":{"y":99,"x":75,"width":8,"skin":"niuniu_psd/VIP/001.png","pivotY":2,"pivotX":-3,"height":10},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -106,7 +101,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":161,"x":148,"skin":"niuniu_psd/VIP/VIP/006.png"},
+            "props":{"y":155,"x":148,"skin":"niuniu_psd/VIP/VIP/006.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -125,88 +120,8 @@
         },
         {
             "x":15,
-            "type":"Image",
-            "props":{"y":66,"x":159,"skin":"niuniu_psd/首页/VIP/230.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":74,"x":177,"skin":"niuniu_psd/首页/VIP/230.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":8,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":101,"x":26,"skin":"niuniu_psd/首页/VIP/230.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":105,"x":52,"skin":"niuniu_psd/首页/VIP/230.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":9,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":100,"x":318,"skin":"niuniu_psd/首页/VIP/231.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":103,"x":351,"skin":"niuniu_psd/首页/VIP/231.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":10,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":0,"x":354,"skin":"niuniu_psd/手机绑定/999.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "frames":[
-                {
-                    "type":1,
-                    "props":{"y":28,"x":365,"skin":"niuniu_psd/手机绑定/999.png"},
-                    "frame":0,
-                    "__InPool":false
-                }],
-            "compId":11,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
             "type":"Label",
-            "props":{"y":213,"x":75,"width":577,"text":"1、VIP描述","skin":"template/文本框/label.png","height":32,"fontSize":16,"color":"#ffffff"},
+            "props":{"y":198,"x":47,"width":302,"text":"1、VIP描述","skin":"template/文本框/label.png","height":24,"fontSize":16,"color":"#ffffff"},
             "nodeParent":1,
             "label":"Label",
             "isDirectory":false,
@@ -225,7 +140,7 @@
         {
             "x":15,
             "type":"Label",
-            "props":{"y":244,"x":76,"width":279,"text":"2、VIP描述","skin":"template/文本框/label.png","height":32,"fontSize":16,"color":"#ffffff"},
+            "props":{"y":223,"x":47,"width":302,"text":"2、VIP描述","skin":"template/文本框/label.png","height":24,"fontSize":16,"color":"#ffffff"},
             "nodeParent":1,
             "label":"Label",
             "isDirectory":false,
@@ -237,14 +152,14 @@
                     "props":{"y":41,"x":79,"text":"label","skin":"template/文本框/label.png"},
                     "frame":0
                 }],
-            "compId":16,
+            "compId":18,
             "child":[
                 ]
         },
         {
             "x":15,
             "type":"Label",
-            "props":{"y":277,"x":77,"width":577,"text":"3、VIP描述","skin":"template/文本框/label.png","height":32,"fontSize":16,"color":"#ffffff"},
+            "props":{"y":247,"x":47,"width":302,"text":"3、VIP描述","skin":"template/文本框/label.png","height":24,"fontSize":16,"color":"#ffffff"},
             "nodeParent":1,
             "label":"Label",
             "isDirectory":false,
@@ -256,7 +171,145 @@
                     "props":{"y":41,"x":79,"text":"label","skin":"template/文本框/label.png"},
                     "frame":0
                 }],
-            "compId":17,
+            "compId":19,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Label",
+            "props":{"y":268,"x":47,"width":302,"text":"4、VIP描述","skin":"template/文本框/label.png","height":24,"fontSize":16,"color":"#ffffff"},
+            "nodeParent":1,
+            "label":"Label",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":41,"x":79,"text":"label","skin":"template/文本框/label.png"},
+                    "frame":0
+                }],
+            "compId":20,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Label",
+            "props":{"y":290,"x":47,"width":302,"text":"5、VIP描述","skin":"template/文本框/label.png","height":24,"fontSize":16,"color":"#ffffff"},
+            "nodeParent":1,
+            "label":"Label",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":41,"x":79,"text":"label","skin":"template/文本框/label.png"},
+                    "frame":0
+                }],
+            "compId":21,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "props":{"y":96,"x":28,"skin":"niuniu_psd/hall/VIP/230.png"},
+            "nodeParent":1,
+            "label":"Image",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":109,"x":32,"skin":"niuniu_psd/hall/VIP/230.png"},
+                    "frame":0,
+                    "__InPool":false
+                }],
+            "compId":22,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "props":{"y":64,"x":158,"skin":"niuniu_psd/hall/VIP/230.png"},
+            "nodeParent":1,
+            "label":"Image",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":74,"x":162,"skin":"niuniu_psd/hall/VIP/230.png"},
+                    "frame":0,
+                    "__InPool":false
+                }],
+            "compId":23,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "props":{"y":94,"x":321,"skin":"niuniu_psd/hall/VIP/231.png"},
+            "nodeParent":1,
+            "label":"Image",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":112,"x":324,"skin":"niuniu_psd/hall/VIP/231.png"},
+                    "frame":0,
+                    "__InPool":false
+                }],
+            "compId":24,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "props":{"y":-9,"x":360,"skin":"niuniu_psd/hall/guanbi.png","name":"close"},
+            "nodeParent":1,
+            "label":"Button(close)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":27,"x":319,"skin":"comp/btn_close.png","label":"label"},
+                    "frame":0,
+                    "__InPool":false
+                }],
+            "compId":25,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Label",
+            "props":{"y":146,"x":138,"width":118,"text":"label","styleSkin":"comp/label.png","height":38},
+            "nodeParent":1,
+            "label":"Label",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "frames":[
+                {
+                    "type":1,
+                    "props":{"y":227,"x":178,"text":"label","styleSkin":"comp/label.png"},
+                    "frame":0,
+                    "__InPool":false
+                }],
+            "compId":27,
             "child":[
                 ]
         }],
